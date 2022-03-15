@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+
+</head>
+
+<body>
+
+  <main>
+
+    <header class="header">
+      <h1 class="header_heading">calc</h1>
+
+      <div class="theme">
+
+        <h4 class="theme_toggle_heading">
+          THEME
+        </h4>
+
+        <div class="theme_toggle">
+          <div class="theme_toggle_subheading">
+            <h6>1</h6>
+            <h6>2</h6>
+            <h6>3</h6>
+          </div>
+
+          <div class="theme_toggle_toggler">
+
+            <fieldset class="header_toggle toggle" aria-label="theme toggle" role="radiogroup">
+              <input type="radio" name="theme" id="cyan" />
+              <input type="radio" name="theme" id="gray" />
+              <input type="radio" name="theme" id="purple" />
+              <span aria-hidden="true" class="toggle_background"></span>
+              <span aria-hidden="true" class="toggle_button"></span>
+            </fieldset>
+
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <section class="calc">
+
+      <div>
+        <input type="text" class="inp" readonly>
+      </div>
+
+      <div class="calc_keys">
+
+        <div class="calc_key_row">
+          <button class="calc_key n">7</button>
+          <button class="calc_key n">8</button>
+          <button class="calc_key n">9</button>
+          <button class="redel del">DEL</button>
+
+        </div>
+
+        <div class="calc_key_row">
+          <button class="calc_key n">4</button>
+          <button class="calc_key n">5</button>
+          <button class="calc_key n">6</button>
+          <button class="calc_key op">+</button>
+        </div>
+
+        <div class="calc_key_row">
+          <button class="calc_key n">1</button>
+          <button class="calc_key n">2</button>
+          <button class="calc_key n">3</button>
+          <button class="calc_key op">-</button>
+        </div>
+
+        <div class="calc_key_row">
+          <button class="calc_key op dot">.</button>
+          <button class="calc_key n">0</button>
+          <button class="calc_key op">/</button>
+          <button class="calc_key op">*</button>
+        </div>
+
+        <div class="calc_key_row">
+          <button class="calc_key-wide redel reset">RESET</button>
+          <button class="calc_key-wide equal">=</button>
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

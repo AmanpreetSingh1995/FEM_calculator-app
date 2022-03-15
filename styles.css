@@ -1,0 +1,353 @@
+:root {
+	--white: hsl(0, 0%, 100%);
+
+	/* ********** THEME-1 ********** */
+
+	--very-dark-blue-main-bg: hsl(222, 26%, 31%);
+	--very-dark-blue-toggle-bg: hsl(223, 31%, 20%);
+	--very-dark-blue-keypad-bg: hsl(223, 31%, 20%);
+	--very-dark-blue-screen-bg: hsl(224, 36%, 15%);
+
+	--red-toggle: hsl(6, 63%, 50%);
+
+	--light-grayish-orange-key-bg: hsl(30, 25%, 89%);
+	--grayish-orange-key-shadow: hsl(28, 16%, 65%);
+
+	--dark-blue-key-bg: hsl(225, 21%, 49%);
+	--dark-blue-key-shadow: hsl(224, 28%, 35%);
+
+	--red-key-bg: hsl(6, 63%, 50%);
+	--dark-red-key-shadow: hsl(6, 70%, 34%);
+
+	--text-dark-grayish-blue: hsl(221, 14%, 31%);
+
+	/* ********** THEME-2 ********** */
+
+	--light-gray-main-bg: hsl(0, 0%, 90%);
+	--grayish-red-toggle-bg: hsl(0, 5%, 81%);
+	--grayish-red-keypad-bg: hsl(0, 5%, 81%);
+	--very-light-gray-screen-bg: hsl(0, 0%, 93%);
+
+	--orange-toggle: hsl(25, 98%, 40%);
+
+	--light-grayish-yellow-key-bg: hsl(45, 7%, 89%);
+	--dark-grayish-orange-key-shadow: hsl(35, 11%, 61%);
+
+	--dark-cyan-key-bg: hsl(185, 42%, 37%);
+	--very-dark-cyan-key-shadow: hsl(185, 58%, 25%);
+
+	--orange-key-bg: hsl(25, 98%, 40%);
+	--dark-orange-key-shadow: hsl(25, 99%, 27%);
+
+	--text-dark-grayish-yellow: hsl(60, 10%, 19%);
+
+	/* ********** THEME-3 ********** */
+
+	--very-dark-violet-main-bg: hsl(268, 75%, 9%);
+	--very-dark-violet-toggle-bg: hsl(268, 71%, 12%);
+	--very-dark-violet-keypad-bg: hsl(268, 71%, 12%);
+	--very-dark-violet-screen-bg: hsl(268, 71%, 12%);
+
+	--pure-cyan-toggle: hsl(176, 100%, 44%);
+
+	--very-dark-violet-key-bg: hsl(268, 47%, 21%);
+	--dark-magenta-key-shadow: hsl(290, 70%, 36%);
+
+	--dark-violet-key-bg: hsl(281, 89%, 26%);
+	--vivid-magenta-key-shadow: hsl(285, 91%, 52%);
+
+	--pure-cyan-key-bg: hsl(176, 100%, 44%);
+	--soft-cyan-key-shadow: hsl(177, 92%, 70%);
+
+	--text-light-yellow: hsl(52, 100%, 62%);
+	--text-dark-blue: hsl(198, 19%, 13%);
+
+	/* DEFAULT */
+	--background: var(--very-dark-blue-main-bg);
+	--toggle: var(--red-toggle);
+	--toggle-bg: var(--very-dark-blue-toggle-bg);
+	--text-color: var(--white);
+	--input-bg: var(--very-dark-blue-screen-bg);
+	--keypad-bg: var(--very-dark-blue-keypad-bg);
+	--keys-bg: var(--light-grayish-orange-key-bg);
+	--keys-shadow: var(--grayish-orange-key-shadow);
+	--keys-text: var(--text-dark-grayish-blue);
+	--redel-bg: var(--dark-blue-key-bg);
+	--redel-shadow: var(--dark-blue-key-shadow);
+	--redel-text: var(--white);
+	--equal-key-bg: var(--red-key-bg);
+	--equal-key-shadow: var(--dark-red-key-shadow);
+	--equal-key-text: var(--white);
+}
+
+.cyan {
+	--background: var(--very-dark-blue-main-bg);
+	--toggle: var(--red-toggle);
+	--toggle-bg: var(--very-dark-blue-toggle-bg);
+	--text-color: var(--white);
+	--input-bg: var(--very-dark-blue-screen-bg);
+	--keypad-bg: var(--very-dark-blue-keypad-bg);
+
+	--keys-bg: var(--light-grayish-orange-key-bg);
+	--keys-shadow: var(--grayish-orange-key-shadow);
+	--keys-text: var(--text-dark-grayish-blue);
+	--redel-bg: var(--dark-blue-key-bg);
+	--redel-shadow: var(--dark-blue-key-shadow);
+	--redel-text: var(--white);
+	--equal-key-bg: var(--red-key-bg);
+	--equal-key-shadow: var(--dark-red-key-shadow);
+	--equal-key-text: var(--white);
+}
+
+.gray {
+	--background: var(--light-gray-main-bg);
+	--toggle: var(--orange-toggle);
+	--toggle-bg: var(--grayish-red-toggle-bg);
+	--text-color: var(--text-dark-grayish-yellow);
+	--input-bg: var(--very-light-gray-screen-bg);
+	--keypad-bg: var(--grayish-red-keypad-bg);
+
+	--keys-bg: var(--light-grayish-yellow-key-bg);
+	--keys-shadow: var(--dark-grayish-orange-key-shadow);
+	--keys-text: var(--text-dark-grayish-blue);
+	--redel-bg: var(--dark-cyan-key-bg);
+	--redel-shadow: var(--very-dark-cyan-key-shadow);
+	--redel-text: var(--white);
+	--equal-key-bg: var(--orange-key-bg);
+	--equal-key-shadow: var(--dark-orange-key-shadow);
+	--equal-key-text: var(--white);
+}
+
+.purple {
+	--background: var(--very-dark-violet-main-bg);
+	--toggle: var(--pure-cyan-toggle);
+	--toggle-bg: var(--very-dark-violet-toggle-bg);
+	--text-color: var(--text-light-yellow);
+	--input-bg: var(--very-dark-violet-screen-bg);
+	--keypad-bg: var(--very-dark-violet-keypad-bg);
+
+	--keys-bg: var(--very-dark-violet-key-bg);
+	--keys-shadow: var(--dark-magenta-key-shadow);
+	--keys-text: var(--text-light-yellow);
+	--redel-bg: var(--dark-violet-key-bg);
+	--redel-shadow: var(--vivid-magenta-key-shadow);
+	--redel-text: var(--white);
+	--equal-key-bg: var(--pure-cyan-key-bg);
+	--equal-key-shadow: var(--soft-cyan-key-shadow);
+	--equal-key-text: var(--white);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Spartan", sans-serif;
+	overflow: hidden;
+}
+
+.visually-hidden {
+	height: 1px;
+	left: -10000px;
+	overflow: hidden;
+	position: absolute;
+	top: auto;
+	width: 1px;
+}
+
+main {
+	background: var(--background);
+	color: var(--text-color);
+	/* height: 100%; */
+}
+
+button {
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 4px 20px;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+
+.theme {
+	display: flex;
+	align-items: center;
+}
+
+.theme_toggle_heading {
+	padding-top: 8px;
+}
+
+.theme_toggle {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+}
+
+.theme_toggle_subheading {
+	display: flex;
+	justify-content: space-around;
+}
+
+.theme_toggle_toggler {
+	height: 1.5rem;
+	position: relative;
+	margin-top: 4px;
+}
+
+.toggle input[type="radio"] {
+	height: 1.5rem;
+	margin: 0 -0.125rem;
+	opacity: 0;
+	width: 1.5rem;
+	cursor: pointer;
+}
+
+.header_toggle {
+	border: none;
+}
+
+.toggle_background {
+	background: var(--toggle-bg);
+	border-radius: 0.75rem;
+	display: block;
+	height: 100%;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.toggle_button {
+	background: var(--toggle);
+	border-radius: 50%;
+	height: 1.125rem;
+	left: 0.1875rem;
+	position: absolute;
+	right: 100%;
+	top: 0.1875rem;
+	transition: all 0.15s ease-in-out;
+	width: 1.125rem;
+}
+
+.toggle #gray:checked ~ .toggle_button {
+	left: calc(100% - 42px);
+	right: 3px;
+}
+
+.toggle #purple:checked ~ .toggle_button {
+	left: calc(100% - 21px);
+	right: 3px;
+}
+
+/* CALCULATOR */
+
+.calc {
+	height: 90vh;
+	/* height: calc(100vh - 58px); */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.inp {
+	width: 540px;
+	height: 70px;
+	padding-right: 20px;
+	margin-bottom: 10px;
+	font-size: 32px;
+	text-align: right;
+	border: none;
+	background: var(--input-bg);
+	color: var(--text-color);
+}
+
+.calc_keys {
+	width: 540px;
+	height: 440px;
+	padding: 24px;
+	background: var(--keypad-bg);
+}
+
+.calc_key_row {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 24px;
+}
+
+.calc_key {
+	width: 100px;
+	height: 60px;
+	font-size: 32px;
+	font-weight: 700;
+	background: var(--keys-bg);
+	color: var(--keys-text);
+	box-shadow: 0px 4px 0px 0px var(--keys-shadow);
+}
+
+.calc_key-wide {
+	width: 228px;
+	height: 60px;
+	font-size: 18px;
+}
+
+.del {
+	width: 100px;
+	height: 60px;
+	font-size: 32px;
+	font-weight: 700;
+	background: var(--keys-bg);
+	color: var(--keys-text);
+	box-shadow: 0px 4px 0px 0px var(--keys-shadow);
+}
+
+.redel {
+	font-size: 18px;
+	background: var(--redel-bg);
+	color: var(--redel-text);
+	box-shadow: 0px 4px 0px 0px var(--redel-shadow);
+}
+
+.equal {
+	background: var(--equal-key-bg);
+	color: var(--equal-key-text);
+	box-shadow: 0px 4px 0px 0px var(--equal-key-shadow);
+}
+
+/* #################
+ FOR MOBILE VIEW
+################# */
+
+@media only screen and (max-width: 575px) {
+	.header {
+		padding: 12px 0px;
+		margin: 0px;
+	}
+
+	.inp {
+		width: 440px;
+	}
+
+	.calc_keys {
+		width: 440px;
+	}
+
+	.calc_key {
+		width: 70px;
+	}
+
+	.calc_key-wide {
+		width: 176px;
+	}
+
+	.del {
+		width: 70px;
+	}
+}
